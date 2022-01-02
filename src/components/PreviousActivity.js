@@ -2,7 +2,6 @@ import { Card, Col, Timeline } from 'antd'
 import React from 'react'
 import { AiFillCheckCircle } from "react-icons/ai";
 function PreviousActivity() {
-
     const lastActivities = [
         {
             name: "Company Creation",
@@ -22,7 +21,7 @@ function PreviousActivity() {
         },
     ]
     return (
-        <Col span={9}>
+        <Col xs={24} sm={24} md={10} lg={9}>
             <Card className='classicShadow' style={{ height: "100%" }}>
                 <span className='text2'>Past Activity</span>
                 <div className='underline'></div>
@@ -30,7 +29,7 @@ function PreviousActivity() {
                     {
                         lastActivities && lastActivities.map(activity =>
 
-                            <Timeline.Item dot={<AiFillCheckCircle style={{ color: "#2dcd7a", width: "30.3px", height: "28.7px" }} />}>
+                            <Timeline.Item key={activity.name} dot={<AiFillCheckCircle style={{ color: "#2dcd7a", width: "30.3px", height: "28.7px" }} />}>
                                 <span className='text2' style={{ fontSize: "14px" }}>{activity.name}</span>
                                 <span className='text2' style={{ fontSize: "10px" }}>{activity.date}</span>
 

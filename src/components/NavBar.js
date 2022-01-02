@@ -1,6 +1,5 @@
 import { Avatar, Col, Row } from 'antd'
 import React from 'react'
-
 function NavBar() {
     return (
         <Row>

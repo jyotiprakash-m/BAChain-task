@@ -8,11 +8,8 @@ function App() {
   return (
     <Row style={{ padding: "1rem" }}>
       <Col span={24}>
-        {/* Navigation */}
         <NavBar />
-        {/* Horizontal Bar Chart and Last Activities */}
         <CompanyInfo />
-        {/* Vertical Bar Chart */}
         <LoanMetrics />
       </Col>
     </Row>

@@ -1,4 +1,4 @@
-import { Card, Row } from 'antd'
+import { Row } from 'antd'
 import React from 'react'
 import HorizontalBarChart from './HorizontalBarChart'
 import PreviousActivity from './PreviousActivity'

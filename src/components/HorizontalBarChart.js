@@ -1,4 +1,4 @@
-import { Avatar, Card, Col, Row } from 'antd'
+import { Card, Col, Row } from 'antd'
 import React from 'react'
 import Chart from 'react-apexcharts'
 function HorizontalBarChart() {
@@ -32,21 +32,18 @@ function HorizontalBarChart() {
                 categories: demoData.label
             }
         },
-
-
     }
     return (
-        <Col span={15}>
+        <Col xs={24} sm={24} md={14} lg={15}>
             <Card className='classicShadow'>
-
                 <Row>
-                    <Col span={12}>
+                    <Col xs={24} sm={24} md={12} lg={12}>
                         <span className='text1'>Company Information</span>
                         <span className='text2'>Main metrics</span>
                         <div className='underline'></div>
                     </Col>
-                    <Col span={12} >
-                        <Row style={{ float: "right" }}>
+                    <Col xs={24} sm={24} md={12} lg={12} >
+                        <Row className='rightHeading'>
                             <Col span={24}>
                                 <Row>
                                     <Col>
