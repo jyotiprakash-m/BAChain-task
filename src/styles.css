@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.logo{
+    font-family: Montserrat;
+    color: #313131;
+    font-size: 18px;
+    font-weight: bold;
+ 
+}
+.slogan{
+    font-family: Montserrat;
+    color: #313131;
+    display: block;
+    font-size: 10px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.username{
+    /* font-family: SFProDisplay sans-serif; */
+    font-size: 16px;
+    font-stretch: normal;
+    line-height: 2.38;
+    color: #182c40;
+}
+.classicShadow{
+    border-radius: 10px;
+    box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+}
+
+.text1{
+    font-size: 21px;
+    font-family: Montserrat;
+    line-height: 2.33;
+    color: #161616;
+}
+.underline{
+    width: 32px;
+    height: 4px;
+    margin-top: 1rem;
+    border-radius: 2px;
+    background-image: linear-gradient(265deg, #7467f0 98%, #2896e9 0%);
+}
+.text2{
+    display: block;
+    font-family: Montserrat;
+    font-size: 16px;
+    /* line-height: 3.31; */
+    color: #8d8d8d;
+}
+
+.priceText{
+    color: #2896e9;
+    font-size: 19px;
+    font-weight: 500;
+}
+.colorCircle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: "3px";
+    display: inline-block;
+}
