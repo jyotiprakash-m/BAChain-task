@@ -9,4 +9,4 @@ This is simple responsive dashboard frontend design . Javascript libraries use i
 ## Live on
 I host this application on netlify.com.
 
-> [https://space-x-nextjs-tailwindcss.vercel.app](https://space-x-nextjs-tailwindcss.vercel.app)
+> [https://bachain-task.netlify.app](https://bachain-task.netlify.app)
